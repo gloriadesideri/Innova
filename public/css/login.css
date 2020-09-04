@@ -1,0 +1,29 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+
+.background{
+
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color:#FF6D6D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card{
+    background: white;
+}
+.card-header{
+    color: white;
+    font-weight: bold;
+
+}
+.reg-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

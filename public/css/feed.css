@@ -1,0 +1,17 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #E5E5E5;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hidden{
+    display: none;
+}
