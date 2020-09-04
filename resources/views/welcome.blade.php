@@ -82,11 +82,11 @@
                     Innova
                 </div>
                 <div class="subtitle">
-                    La piattaforma degli innovatori
+                    The innovator's platform
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Mission</a>
+                    <a href="/mission">Mission</a>
                     @if (Route::has('login'))
 
                             @auth
