@@ -60,7 +60,7 @@ class PostController extends Controller
 
         }
         $post->save();
-        return redirect('/channels/'.$channel->name);
+        return redirect('/channels/'.$channel->name.'#post-'.$post->id);
 
 //        return response()->json(['result'=>'success'],200);
 

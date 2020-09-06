@@ -51,7 +51,7 @@ class ReplyController extends Controller
             Notification::send($receiver,new Like($user,$reply,'reply',$channel));
         }
         $reply->save();
-        return redirect('/channels/'.$channel->name);
+        return redirect('/channels/'.$channel->name.'#reply-'.$reply->id);
 
 //        return response()->json(['result'=>'success'],200);
 

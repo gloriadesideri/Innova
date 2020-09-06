@@ -81,7 +81,7 @@ class CommentController extends Controller
         }
         $comment->save();
 
-        return redirect('/channels/'.$channel->name); //TODO FIX THIS
+        return redirect('/channels/'.$channel->name.'#comment-'.$comment->id);
 
 
     }
