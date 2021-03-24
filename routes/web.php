@@ -20,7 +20,9 @@ Auth::routes(['verify'=>true]);
 
 
 
-
+Route::get('/mission',function (){
+    return view('mission');
+});
 
 Route::group(['middleware' => ['auth', 'verified']],function (){
     Route::group(['middleware' => ['role:superAdmin']], function () {
