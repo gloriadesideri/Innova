@@ -86,3 +86,7 @@ You're good to go. Innova is in your hands: create channels and sections for use
 - last name:admin
 - email:admin@innova.com
 - password:toor
+
+**Online as**
+Login with admin credentials
+https://innova-social.herokuapp.com/
